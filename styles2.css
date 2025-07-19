@@ -1,0 +1,81 @@
+
+.page-background {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+.plist {
+  background-color: #fcead4;
+}
+.head {
+  background-color: #efba75;
+}
+
+
+.main-table {
+  width: 1600px;
+  height: 1000px;
+  margin: auto;
+}
+
+
+
+.footer {
+  background-color: #0d5af3;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background-color: #320cf2;
+  color: white;
+  text-align: center;
+}
+
+
+.menu {
+  background-color: #99f2fc;
+  text-align: center;
+  height:10%;
+}
+
+
+.content {
+  background-color: #00c8ff;
+}
+
+.contact {
+  width: 20%;
+  background-color:#;
+}
+.links {
+  width: 20%;
+  background-color: #8cf2e2;
+  
+}
+.port{
+  width: 60%;
+  background-color:#7bbcfc;
+}
+
+
+a {
+  text-decoration: none;
+  color: blue;
+  transition: color 0.3s;
+}
+
+a:hover, input:hover {
+  color: orange;
+}
+
+form,input,textarea {
+  background-color: #00e2ff; 
+  border: 2px solid;  
+  border-radius: 10px;               
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  background-color: #66f0ff;     
+  outline: 2px solid #3399ff; 
+}

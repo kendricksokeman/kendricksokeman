@@ -1,0 +1,98 @@
+<html>
+<head>
+  <title>Trivia</title>
+  <link rel="stylesheet" href="styles3.css"/>
+</head>
+<body class="page-background">
+
+  <table class="main-table" cellpadding="10" cellspacing="0" border="1">
+    
+    <tr class="header">
+      <td colspan="3"><h1>Ken's Portfolio</h1></td>
+    </tr>
+
+    <tr class="menu">
+      <td colspan="3">
+        <h2>
+          <a href="index.html" target="_blank">Home</a>|
+          <a href="portfolio.html" target="_blank">Portfolio</a> |
+          <a href="trivia.html" target="_blank">Trivia</a>
+        </h2>
+      </td>
+    </tr>
+
+    <tr class="content" valign="top">
+      <td class="links">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>
+            <h4>Design</h4>
+            <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Software_design" target="_blank">Software Design</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Design_language" target="_blank">Design Language</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Look_and_feel" target="_blank">Look and Feel</a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <h4>Aesthetics</h4>
+            <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Aesthetics" target="_blank">Wikipedia</a></li>
+              <li><a href="https://aesthetics.fandom.com/wiki/Category:2000s" target="_blank">2000's aesthetics list</a></li>
+              <li><a href="https://aesthetics.fandom.com/wiki/Frutiger_Aero" target="_blank">Frutigo Aero</a></li>
+              </ul>
+          </li>
+        </ul>
+      </td>
+
+      <td align="center" class="trivia">
+        <h3> Trivia</h3>
+        <p> A little trivia to quiz on design aesthetics
+        </p>
+        <br/>
+         <div id="quiz">
+           <h3>Question:</h3>
+    <div id="question"></div>
+    <div id="answers"></div>
+    <div id="result"></div>
+    <button id="nextBtn" style="display:none;">Next Question</button>
+  </div>
+
+  <div id="results">
+    <h3>Your Results</h3>
+    <p id="score"></p>
+    <div id="review"></div>
+    <button id="restartBtn">Restart Quiz</button>
+  </div>
+
+        
+        
+        
+        
+      </td>
+
+      <td class="contact">
+        <h3>Contact Me</h3><br>
+        <form method="post" action="youremail@email.com" name="f" width="400">
+          Name: <input type="text" size="20" maxlength="40"><br/><br/>
+          Email: <input type="text" size="20" maxlength="20"><br/><br/>
+          Type of Message:
+          <br/>
+          <input type="radio" name="type" value="business"> Business-Related
+          <input type="radio" name="type" value="else"> Else<br/>
+          <p align="top"> 
+            Message: </p><textarea rows="10" cols="40" name="field1">Enter Comments Here</textarea><br/>
+          </br>
+          <input type="submit" value="Send">
+          <input type="button"  value="Clear" onclick="resetMessage()"/>
+        </form>
+      </td>
+    </tr>
+
+    <tr class="footer">
+      <td colspan="3"><strong> July 19th 2025 - <a href="https://www.google.com/search?q=external+link" target="_blank">Made by Ken</a></strong></td>
+    </tr>
+  </table>
+<script src="script2.js"></script>
+</body>
+</html>
